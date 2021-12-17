@@ -1,8 +1,8 @@
 var app = new Vue({
   el: '#app',
   data: {
-    messages: {
-      count: 3
+    user: {
+      gender: 'male'
     }
   }
 })

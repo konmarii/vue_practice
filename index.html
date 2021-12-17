@@ -5,17 +5,19 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-  <div id="app">
-    <div class="container">
-      <h1>Welcome to Vue</h1>
-      <p class="notification" v-if="messages.count > 0">
-        You have {{ messages.count }} messages.
-      </p>
-      <p v-else>No messages.</p>
+    <div id="app">
+      <div class="container">
+        <h1>Welcome to Vue</h1>
+      <p>
+          I am :
+          <i class="fa fa-mars icon" v-if="user.gender === 'male'"></i>
+          <i class="fa fa-venus icon" v-else-if="user.gender === 'female'"></i>
+          <i class="fa fa-transgender icon" v-else></i>
+        </p>
+      </div>
     </div>
-  </div>
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/vue"></script>
     <script src="app.js"></script>
   </body>

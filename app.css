@@ -1,10 +1,19 @@
 .container {
-  padding: .5rem 2%;
+  padding: 0.5rem 2%;
 }
 
-.notification {
-  background: #0093E3;
-  border-radius: 4px;
-  color: white;
-  padding: 1rem;
+.icon {
+  font-size: 1.6rem;
+}
+
+.fa-mars {
+  color: blue;
+}
+
+.fa-venus {
+  color: red;
+}
+
+.fa-transgender {
+  color: green;
 }
