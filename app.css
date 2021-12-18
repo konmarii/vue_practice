@@ -2,18 +2,23 @@
   padding: 0.5rem 2%;
 }
 
-.icon {
-  font-size: 1.6rem;
+.container {
+  padding: 0.5rem 2%;
 }
 
-.fa-mars {
-  color: blue;
+.tab {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
 }
 
-.fa-venus {
-  color: red;
+.tab-item + .tab-item {
+  margin-left: 1rem;
 }
 
-.fa-transgender {
-  color: green;
+.tab-content {
+  background: #f1fafa;
+  padding: 0.5rem;
 }

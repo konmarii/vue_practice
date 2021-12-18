@@ -1,8 +1,6 @@
 var app = new Vue({
   el: '#app',
   data: {
-    user: {
-      gender: 'male'
-    }
+    currentTab: 1
   }
 })
