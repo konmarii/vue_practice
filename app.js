@@ -1,9 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-     styleObject: {
-       color: 'red',
-       fontSize: '13px'
+    message: '',
+    description: 'This is textarea.',
   }
-}
 })
